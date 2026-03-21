@@ -1,7 +1,7 @@
 # 🖊 InkWell — Full-Stack Blogging Platform
 
 > A modern blogging platform where writers craft stories, share ideas, and build an audience — with AI writing assistance and cover image generation built right in.
-
+https://agent-69bf2954ca80544--inkwellblogging.netlify.app/
 ![InkWell Banner](https://picsum.photos/id/3059/1200/400)
 
 ---
