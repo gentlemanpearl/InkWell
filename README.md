@@ -1,4 +1,4 @@
-# 🖊 InkWell — Full-Stack Blogging Platform
+# InkWell — Full-Stack Blogging Platform
 
 > A modern blogging platform where writers craft stories, share ideas, and build an audience — with AI writing assistance and cover image generation built right in.
 https://agent-69bf2954ca80544--inkwellblogging.netlify.app/
@@ -6,21 +6,21 @@ https://agent-69bf2954ca80544--inkwellblogging.netlify.app/
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Blogging
-- 📝 **Create, Edit, Delete** posts with rich content
-- 🖼 **Cover Images** — drag & drop upload, URL paste, or AI generation
-- 🏷 **Tag System** — filter posts by topic
-- 💬 **Comment System** — threaded discussions per post
-- ❤️ **Like Posts** — engagement tracking
-- 🔍 **Live Search** — full-text search across title, content, author
+-  **Create, Edit, Delete** posts with rich content
+- **Cover Images** — drag & drop upload, URL paste, or AI generation
+- **Tag System** — filter posts by topic
+- **Comment System** — threaded discussions per post
+- **Like Posts** — engagement tracking
+- **Live Search** — full-text search across title, content, author
 
 ### Authentication (JWT)
-- 🔐 **Sign Up / Sign In** with email & password
-- 🎟 **JWT tokens** — 7-day expiry, stored in localStorage
-- 🛡 **Protected routes** — dashboard & editor require auth
-- 👤 **5 demo accounts** pre-loaded (password: `demo`)
+- **Sign Up / Sign In** with email & password
+- **JWT tokens** — 7-day expiry, stored in localStorage
+- **Protected routes** — dashboard & editor require auth
+-  **5 demo accounts** pre-loaded (password: `demo`)
   - `alice@inkwell.io` — Tech writer
   - `james@inkwell.io` — Philosophy essayist
   - `priya@inkwell.io` — UX Designer
@@ -28,21 +28,21 @@ https://agent-69bf2954ca80544--inkwellblogging.netlify.app/
   - `sara@inkwell.io` — Creative writer
 
 ### AI Features (Claude API)
-- ✍️ **AI Content Generation** — full blog post from title + tags using `claude-sonnet-4-20250514`
-- 🎨 **AI Cover Image Generation** — smart image selection (production: DALL-E 3 / Stability AI)
-- 💡 **Auto Excerpt** — AI suggests a one-line hook for your post
+- **AI Content Generation** — full blog post from title + tags using `claude-sonnet-4-20250514`
+- **AI Cover Image Generation** — smart image selection (production: DALL-E 3 / Stability AI)
+-  **Auto Excerpt** — AI suggests a one-line hook for your post
 
 ### Design & UX
-- 🌙 **Dark Mode** — persistent theme toggle
-- 🃏 **3D Card Animations** — hover with rotateX/Y + spring easing
-- 🌊 **Animated Hero** — floating gradient orbs + CSS grid background
-- 📱 **Fully Responsive** — mobile, tablet, desktop
-- 🖼 **Lazy Image Loading** — smooth fade-in with emoji placeholders
-- 🏢 **Professional Footer** — brand, links, newsletter, tech badges
+- **Dark Mode** — persistent theme toggle
+- **3D Card Animations** — hover with rotateX/Y + spring easing
+- **Animated Hero** — floating gradient orbs + CSS grid background
+- **Fully Responsive** — mobile, tablet, desktop
+- **Lazy Image Loading** — smooth fade-in with emoji placeholders
+- **Professional Footer** — brand, links, newsletter, tech badges
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ### Frontend (React + Vite)
 ```
@@ -106,7 +106,7 @@ src/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -137,7 +137,7 @@ npm run preview
 
 ---
 
-## 🤖 AI Setup (Claude API)
+## AI Setup (Claude API)
 
 The AI writing assistant calls the Anthropic Claude API. In the current demo build, API calls are made client-side for simplicity. In production, proxy through your Express backend:
 
@@ -195,7 +195,7 @@ app.listen(5000, () => console.log('InkWell API running on :5000'));
 
 ---
 
-## 🎨 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -210,7 +210,7 @@ app.listen(5000, () => console.log('InkWell API running on :5000'));
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 inkwell/
