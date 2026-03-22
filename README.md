@@ -2,7 +2,7 @@
 
 > A modern blogging platform where writers craft stories, share ideas, and build an audience — with AI writing assistance and cover image generation built right in.
 https://agent-69bf2954ca80544--inkwellblogging.netlify.app/
-![InkWell Banner](https://picsum.photos/id/3059/1200/400)
+
 
 ---
 
@@ -228,7 +228,6 @@ inkwell/
 
 ---
 
-## 👨‍💻 For Trainees
 
 This project demonstrates:
 
@@ -241,11 +240,3 @@ This project demonstrates:
 7. **React patterns** — Context API, custom hooks, lazy loading, optimistic UI
 
 ---
-
-## 📄 License
-
-MIT © 2025 InkWell
-
----
-
-*Built with ♥ for the love of writing.*
